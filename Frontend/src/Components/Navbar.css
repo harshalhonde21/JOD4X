@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #617cad;  
+  color: white;
+}
+
+.logo img {
+  width:50px;
+  border-radius: 50px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 22px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar .login{
+  border: 2px solid rgb(253, 253, 253);
+  border-radius: 15px;
+  background-color: blue;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .search-bar {
+    margin-left: auto;
+  }
+}
+
+
+/* Existing styles */
+
+.nav-links input[type="text"] {
+  display: none; /* Hide the search input by default */
+}
+
+.nav-links.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Adjust as needed */
+  right: 0;
+  background-color: #333;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.nav-links.active a {
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  color: white;
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none; 
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none; 
+  }
+
+  .menu-toggle {
+    display: block; 
+  }
+
+  .search-bar {
+    margin-left: auto;
+  }
+}

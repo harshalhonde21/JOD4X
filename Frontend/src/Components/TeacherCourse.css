@@ -1,0 +1,83 @@
+.teacher-course-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4b6aa5;
+    margin-top: 5rem;
+    margin-bottom:5rem;
+    border-radius: 30px;
+  }
+
+  h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .content-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .content-item input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .content-item button {
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content-item button:hover {
+    background-color: #aaa;
+  }
+  
+  .button-add-course {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-add-course:hover {
+    background-color: #45a049;
+  }
+  
+  .button-add-course:active {
+    background-color: #3e8e41;
+  }
+  

@@ -1,0 +1,78 @@
+.courses-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black; /* Changed border style */
+  border-radius: 5px;
+  font-size: 20px;
+  color: #6385c3;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+
+.course-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-card {
+  width: calc(40% - 5px); 
+  background-color: #6385c3; 
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Adding transition for smooth hover effect */
+  text-align: center;
+  margin-left: 5rem;
+}
+
+.course-card:hover {
+  background-color: #4b6aa5; /* Change background color on hover */
+}
+
+.course-image {
+  width: 80%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.course-name {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+
+.instructor-name, .course-dates {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: whitesmoke;
+}
+
+
+.add-course-button {
+  padding: 10px 20px;
+  background-color: #6385c3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 75rem;
+}
+
+.add-course-button:hover {
+  background-color: #4b6aa5;
+}
