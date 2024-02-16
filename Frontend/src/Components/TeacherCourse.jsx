@@ -42,7 +42,7 @@ const TeacherCourse = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5500/courses/addCourse', {
+      const response = await fetch('https://backendprototype.onrender.com/courses/addCourse', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

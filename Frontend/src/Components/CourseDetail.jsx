@@ -9,7 +9,7 @@ const CourseDetails = () => {
   useEffect(() => {
     const fetchCourse = async () => {
       try {
-        const response = await fetch(`http://localhost:5500/courses/getCourse/${id}`);
+        const response = await fetch(`https://backendprototype.onrender.com/courses/getCourse/${id}`);
         if (!response.ok) {
           throw new Error('Failed to fetch course details');
         }

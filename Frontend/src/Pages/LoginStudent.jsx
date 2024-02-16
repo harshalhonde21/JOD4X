@@ -16,7 +16,7 @@ const LoginStudent = () => {
     const password = event.target.password.value;
   
     try {
-      const response = await fetch('http://localhost:5500/login/user/login', {
+      const response = await fetch('https://backendprototype.onrender.com/login/user/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
