@@ -14,8 +14,7 @@ const Home = () => {
           <div className="text">
             <h1>Online Learning</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem,
-              voluptate eaque aspernatur et delectus ducimus.
+              Welcome to our online Learning platform! Explore diverse courses, expert instructors, and flexible learning options. Start your educational journey today!
             </p>
             <button className="explore-button" onClick={done}>
               Explore
